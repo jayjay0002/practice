@@ -1,0 +1,98 @@
+body {
+  background-image: url(../login/asset/Untitled\ design.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  padding: 40px;
+  background-color: #fffeff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1px;
+  border: 1px solid #110213;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding-left: 40px;
+}
+
+.password-toggle {
+  position: relative;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.password-toggle .icon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #128c67;
+}
+
+.password-toggle input[type="password"] {
+  padding-right: 30px;
+}
+.password-toggle button {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #128c67;
+}
+input[type="submit"] {
+  background-color: #128c67;
+  width: 50%;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 auto;
+  display: block;
+}
+
+input[type="submit"]:hover {
+  background-color: black;
+}
+.error-message {
+  color: red;
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-radius: 15px;
+  display: inline-block;
+  text-align: center;
+}
